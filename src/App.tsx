@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 import logo from "./logo.svg";
+
 import "./App.css";
-import StarterComponent from "./components/StarterComponent";
+// import StarterComponent from "@components/StarterComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,7 +25,7 @@ function App() {
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
 
-        <StarterComponent />
+        {/* <StarterComponent /> */}
         <p>
           <a
             className="App-link"
